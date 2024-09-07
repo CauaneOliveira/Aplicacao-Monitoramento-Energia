@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Home</title>
+</head>
+<body>
+    
+<div class="container">
+
+    <a name="home">
+            <div class="header">
+                    <a href="#home">HOME</a>
+                    <a href="#sobre">SOBRE</a>
+                    <a href="#funcionamento">COMO FUNCIONA</a>
+                    <div class="button">
+                        <a href="login.html">ACESSO</a>
+                    </div>
+                </div>
+            
+                <div class="banner">
+                   <img src="https://uploaddeimagens.com.br/images/004/063/302/original/Desktop_-_1_%285%29.png?1665972417" alt="banner">
+                </div>
+    </a>
+    
+
+    <a name="sobre">
+            <div class="sobre">
+                    <h1>Sobre o Sistema</h1>
+                    <p>Através do sistema, ficou muito mais fácil em acompanhar seu gasto mensal de energia e descobrir qual eletrônico mais consome na sua residência. Assim, auxiliando a buscar um consumo mais equilibrado e ajudar no desenvolvimento da sustentabilidade!</p>
+                    <div class="box" data-aos="fade-down" data-aos-duration="1500">
+                        <img src="https://uploaddeimagens.com.br/images/004/064/314/original/Group_1.png?1666036362" alt="icon" id="icon_01">
+                        <span>Serviço voltado para a &nbsp &nbsp sustentabilidade</span>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="https://uploaddeimagens.com.br/images/004/064/315/original/Group_2.png?1666036390" alt="icon" id="icon_02">
+                        <span>Serviço acessível</span>
+                    </div>
+                    <div class="box" data-aos="fade-down" data-aos-duration="1500">
+                        <img src="https://uploaddeimagens.com.br/images/004/064/316/full/Group_3.png?1666036406" alt="icon" id="icon_03">
+                        <span>Controle seus gastos &nbsp &nbsp com apenas alguns &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspcliques</span>
+                    </div>
+                </div>
+    </a>
+
+    <a name="funcionamento">
+            <div class="como_funciona">
+                    <div class="tit">
+                        <h1>Como funciona</h1>
+                        <p>Veja como funciona o monitoramento do consumo de energia elétrica em sua residência.</p>
+                    </div>
+            
+                    <div class="grid">
+                        <div class="ilustracao">
+                            <img src="https://uploaddeimagens.com.br/images/004/063/273/full/Typing-bro.png?1665970030" alt="site">
+                        </div>
+                        <div class="desc" data-aos="fade-left" data-aos-duration="1500">
+                            <h1>COLETA DOS DADOS</h1>
+                            <p>Após ser realizado o cadastro de alguns aparelhos, é disponibilizado uma lista onde pode-se selecionar os aparelhos que você deseja controlar o gasto. Após a seleção, a partir dos dados inseridos, é trago uma relação de gasto dos mesmos.</p>
+                        </div>
+                    </div>
+                    <div class="grid_02">
+                        <div class="desc_02" data-aos="fade-right" data-aos-duration="1500" >
+                            <h1>RESULTADOS MONITORADOS</h1>
+                            <p>Com esses resultados, é fácil de montar uma relação do quanto cada aparelho gastou no mês ou poderia gastar. Importante ressaltar que os cálculos sempre são baseados em um uso constante e intenso.</p>
+                        </div>
+                        <div class="ilustracao_02">
+                            <img src="https://uploaddeimagens.com.br/images/004/063/267/full/site.png?1665969425" alt="resultado">
+                        </div>
+                    </div>
+                </div>
+                </div>
+    </a>
+
+    <div class="footer">
+        <div class="superior">
+            <div class="coluna">
+                <div class="logo"><img src="https://cdn.discordapp.com/attachments/814660137477341238/1034280146175279205/oi.png" alt="logo"></div>
+                <div class="texto"><p>
+                    "Durante o desenvolvimento, as pesquisas me fizeram pensar muito sobre como é importante economizarmos em nossos gastos, principalmente da energia elétrica. Espero que esse projeto possa ajudar muitos, assim como vem me ajudando" - Tali</p></div>
+                <div class="menu">
+                    <a href="#home">Home</a><br>
+                    <a href="#sobre">Sobre</a><br>
+                    <a href="#funcionamento">Como Funciona</a><br>
+                    <a href="login.html">Acesso</a>
+                </div>
+            </div> 
+        </div>
+        <div class="text">
+            <p>SACER | 00.000.000/0000-00 | R. Paraibuna, 75 | Jardim São Dimas, São José dos Campos</p>
+        </div>
+        <hr>   
+        <div class="inferior">
+            <p>Todos os direitos reservados ao SACER. Desenvolvido e planejado com muito amor de carinho por Tali, Gi e Cauane <3</p>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js">
+</script>
+<script>
+  AOS.init();
+    // You can also pass an optional settings object
+    // below listed default settings
+    AOS.init({
+    // Global settings:
+    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+    startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+    initClassName: 'aos-init', // class applied after initialization
+    animatedClassName: 'aos-animate', // class applied on animation
+    useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+    disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+    debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+    throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+    
+
+    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+    offset: 120, // offset (in px) from the original trigger point
+    delay: 0, // values from 0 to 3000, with step 50ms
+    duration: 400, // values from 0 to 3000, with step 50ms
+    easing: 'ease', // default easing for AOS animations
+    once: false, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+    anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+</script>
+
+</body>
+</html>

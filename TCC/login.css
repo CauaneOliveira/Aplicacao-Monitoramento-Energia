@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+
+
+body {
+    width: 100%;
+    margin: auto;
+    background-color: #f7f7f7;
+}
+
+/*PRIMEIRA PAGINA------------------------------------------------------------------------------------------------------------*/
+
+.logo img {
+    margin-left: -1770px;
+    margin-top: 15px;
+    z-index: 100;
+    width: 80px;
+    position: absolute;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+}
+
+.dados h1{
+    margin-top: 5%;
+    margin-right: 42%;
+    font-family: 'Montserrat';
+    top: 142px;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.formulario{
+    margin-right: 21%;
+    margin-top: 7%;
+}
+
+.formulario input{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 20px;
+    border: none;
+    width: 544px;
+    height: 57px;
+    padding: 0 20px;
+    margin: 20px 0px;
+}
+
+.formulario button{
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 265px;
+    height: 63px;
+    border: none;
+    background: #FBB040;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.formulario label[id="email"]{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 24px;
+}
+.formulario label[id="senha"]{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.forgot{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    right: -74%;
+    bottom: 120px;
+}
+
+.clique_registro{
+    position: relative;
+    text-decoration: none;
+    color:black;
+    right: -27%;
+    top: 100px;
+}
+
+.lado_esquerdo img.onda{
+    position: absolute;
+    height: 100%;
+    left: 30%;
+    top: 0;
+}
+
+.lado_esquerdo img.lampada{
+    position: absolute;
+    top: 55%;
+    left: 6%;
+}
+
+.square{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #FBB040;
+}
+
+.navigation{
+    position: absolute;
+    left: 23%;
+    top: 35%;
+    width: 250px;
+    height: 100px;
+}
+
+.navigation ul li{
+    list-style: none;
+    position: relative;
+    height: 100px;
+    left: 10%;
+    width: 250px;
+    z-index: 2;
+}
+
+.navigation ul li a {
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    top: 20%;
+}
+
+.navigation ul li a .text{
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    transition: 0.5s;
+    transform: translateY(0);
+}
+
+.indicator{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    background: #f7f7f7;
+    border-radius: 50px;
+    top: 10px;
+    left: 10%;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.navigation ul li:nth-child(1).active ~ .indicator{
+    transform: translateY(calc(100px * 0));
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator{
+    transform: translateY(calc(100px * 1));
+}
+
+.text {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+/*SEGUNDA PAGINA------------------------------------------------------------------------------------------------------------*/
+
+.formulario_cadastro{
+    margin-right: 21%;
+    margin-top: -95%;
+}
+
+.formulario_cadastro input{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 20px;
+    border: none;
+    width: 544px;
+    height: 57px;
+    padding: 0 20px;
+    margin: 20px 0px;
+}
+
+.formulario_cadastro button{
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 265px;
+    height: 63px;
+    border: none;
+    background: #CF3547;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.formulario_cadastro label[id="email"]{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 24px;
+}
+.formulario_cadastro label[id="senha"]{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.formulario_cadastro label[id="nome"]{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.formulario_cadastro label[id="sobrenome"]{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.indicator_cadastro{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    background: #f7f7f7;
+    border-radius: 50px;
+    top: 110px;
+    left: 10%;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.lado_esquerdo_cadastro img.onda{
+    position: absolute;
+    height: 100%;
+    left: 30%;
+    top: 0;
+}
+
+.lado_esquerdo_cadastro img.lampada{
+    position: absolute;
+    top: 55%;
+    left: 6%;
+}
+
+.square_cadastro{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #CF3547;
+}
+
+
