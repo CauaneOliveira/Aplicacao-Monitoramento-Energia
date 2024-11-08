@@ -21,5 +21,5 @@ Projeto de Conclusão de Curso realizado no Colégio Univap. Foi criada uma apli
   - Orientador: Wagner dos Santos Clementino de Jesus
   - Co-Orientador: Helio Lourenço Esperidião Ferreira
   - Cauane Oliveira: @CauaneOliveira
-  - Giovana Zucareli:
-  - Talitha Carvalho:
+  - Giovana Zucareli: @GiovanaZucareli
+  - Talitha Carvalho: @talicarvalho
